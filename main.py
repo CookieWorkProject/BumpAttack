@@ -12,7 +12,7 @@ from util.Controller import Controller
 def startGame(gameObjects,replay,player,draw):
     # Initialize Pygame
     pygame.init()
-
+    pygame.font.init()
     # Set up the game window
     if draw:
         screen = pygame.display.set_mode((800, 600))
